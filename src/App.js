@@ -20,6 +20,9 @@ function App() {
 					<Route exact path="/home">
 						<Home></Home>
 					</Route>
+					<Route exact path="/home">
+						<About></About>
+					</Route>
 				</Switch>
 			</Router>
 		</div>
