@@ -1,23 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import C from "../../images/course-images/c-carousel.png";
 
 const Home = () => {
+	const [courses, setCourses] = useState([]);
+	useEffect(() => {
+		fetch("./course.json")
+			.then((res) => res.json())
+			.then((data) => setCourses(data));
+	}, []);
 	return (
 		<div>
 			<Header></Header>
-			<div className="row">
-				<div className="col-md-6">
-					<img src={C} width="100%" alt="" />
-				</div>
-				<div className="col-md-6">
-					<img src="../../images/course-images/c-carousel.png" alt="" />
-				</div>
-			</div>
+			<div className="row">{courses.map((course) => console.log(course))}</div>
 			<Footer></Footer>
 		</div>
 	);
 };
 
 export default Home;
+
+/* {courses.map((course) => (
+					<Services>
+						key={course.id}
+						course={course}
+					</Services>
+				))} */
