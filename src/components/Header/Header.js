@@ -34,19 +34,23 @@ const Header = () => {
 								</Link>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link fs-4" aria-current="page" href="/">
+								<Link class="nav-link fs-4" aria-current="page" to="/about">
 									About
-								</a>
+								</Link>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link fs-4" aria-current="page" href="/">
+								<Link
+									class="nav-link fs-4"
+									aria-current="page"
+									href="/services"
+								>
 									Services
-								</a>
+								</Link>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link fs-4" aria-current="page" href="/">
+								<Link class="nav-link fs-4" aria-current="page" href="/blogs">
 									Blogs
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</div>
