@@ -40,7 +40,7 @@ const Header = () => {
 							</li>
 							<li class="nav-item">
 								<a class="nav-link fs-4" aria-current="page" href="/">
-									Blog
+									Blogs
 								</a>
 							</li>
 						</ul>
