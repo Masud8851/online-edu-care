@@ -7,13 +7,11 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
+import Blogs from "./components/Blogs/Blogs";
 
 function App() {
 	return (
 		<div className="App">
-			{/* <Header></Header>
-			<Home></Home>
-			<Footer></Footer> */}
 			<Router>
 				<Switch>
 					<Route exact path="/">
@@ -27,6 +25,9 @@ function App() {
 					</Route>
 					<Route exact path="/services">
 						<Services></Services>
+					</Route>
+					<Route exact path="/blogs">
+						<Blogs></Blogs>
 					</Route>
 				</Switch>
 			</Router>
