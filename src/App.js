@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import About from "./components/About/About";
 
 function App() {
 	return (
@@ -20,7 +21,7 @@ function App() {
 					<Route exact path="/home">
 						<Home></Home>
 					</Route>
-					<Route exact path="/home">
+					<Route exact path="/about">
 						<About></About>
 					</Route>
 				</Switch>
