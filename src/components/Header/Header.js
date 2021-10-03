@@ -39,16 +39,12 @@ const Header = () => {
 								</Link>
 							</li>
 							<li class="nav-item">
-								<Link
-									class="nav-link fs-4"
-									aria-current="page"
-									href="/services"
-								>
+								<Link class="nav-link fs-4" aria-current="page" to="/services">
 									Services
 								</Link>
 							</li>
 							<li class="nav-item">
-								<Link class="nav-link fs-4" aria-current="page" href="/blogs">
+								<Link class="nav-link fs-4" aria-current="page" to="/blogs">
 									Blogs
 								</Link>
 							</li>
