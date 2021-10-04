@@ -7,7 +7,7 @@ const Header = () => {
 	return (
 		<div className="header">
 			{/* MenuBar */}
-			<nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center">
+			<nav class="navbar navbar-expand-lg  d-flex justify-content-center">
 				<div>
 					<img src={logo} alt="" />
 				</div>
@@ -30,22 +30,54 @@ const Header = () => {
 									class="nav-link active fs-4"
 									aria-current="page"
 									to="/home"
+									style={{
+										borderRadius: "10px",
+										color: "black",
+										fontWeight: "500",
+									}}
 								>
 									Home
 								</Link>
 							</li>
 							<li class="nav-item">
-								<Link class="nav-link fs-4" aria-current="page" to="/about">
+								<Link
+									class="nav-link fs-4"
+									aria-current="page"
+									to="/about"
+									style={{
+										borderRadius: "10px",
+										color: "black",
+										fontWeight: "500",
+									}}
+								>
 									About
 								</Link>
 							</li>
 							<li class="nav-item">
-								<Link class="nav-link fs-4" aria-current="page" to="/services">
+								<Link
+									class="nav-link fs-4"
+									aria-current="page"
+									to="/services"
+									style={{
+										borderRadius: "10px",
+										color: "black",
+										fontWeight: "500",
+									}}
+								>
 									Services
 								</Link>
 							</li>
 							<li class="nav-item">
-								<Link class="nav-link fs-4" aria-current="page" to="/blogs">
+								<Link
+									class="nav-link fs-4"
+									aria-current="page"
+									to="/blogs"
+									style={{
+										borderRadius: "10px",
+										color: "black",
+										fontWeight: "500",
+									}}
+								>
 									Blogs
 								</Link>
 							</li>
@@ -53,8 +85,6 @@ const Header = () => {
 					</div>
 				</div>
 			</nav>
-
-
 		</div>
 	);
 };
