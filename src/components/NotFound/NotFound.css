@@ -1,7 +1,7 @@
 .error{
     padding-top: 150px;
 }
-p{
+.error p{
     font-size: 50px;
-    text-align: center;
+    text-align: center;  
 }
