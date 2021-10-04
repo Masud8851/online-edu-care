@@ -7,9 +7,14 @@ const Services = (props) => {
 	const { image, name, duration, mentor, reviewRate, price } = props.course;
 	return (
 		<div>
-			<div class="col">
-				<div class="card h-100">
-					<img src={image} class="card-img-top w-100 img-fluid" alt="..." />
+			<div class="col p-5">
+				<div class="card h-100 ">
+					<img
+						src={image}
+						class="card-img-top w-100 img-fluid"
+						height="250"
+						alt=".."
+					/>
 					<div class="card-body">
 						<h5 class="card-title">{name}</h5>
 						<h6>

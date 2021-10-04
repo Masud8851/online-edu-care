@@ -21,7 +21,7 @@ const Main = () => {
 			</div>
 
 			<div className="text-center mt-5">
-				<h1 className="text-success">Available Courses</h1>
+				<h1 className="text-success fs-1">Available Courses</h1>
 			</div>
 			<div className="row row-cols-1 row-cols-md-3 g-4 pt-5">
 				{courses.map((course) => (
