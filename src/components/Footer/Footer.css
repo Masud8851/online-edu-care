@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+#footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+p{
+    margin-top: 15px;
+    text-align: justify;
+    padding-left: 15px;
+    margin-bottom: 0!important;
+}
+
+.location{
+    display: flex;
+    align-items: baseline;
+    padding-left: 15px;
+}

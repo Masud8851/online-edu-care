@@ -7,12 +7,15 @@ const Home = () => {
 	useEffect(() => {
 		fetch("./course.json")
 			.then((res) => res.json())
-			.then((data) => setCourses(data));
+			.then((data) => console.log(data));
 	}, []);
 	return (
 		<div>
 			<Header></Header>
-			<div className="row">{courses.map((course) => console.log(course))}</div>
+			<div className="row">
+				<div className="col md-6">H1</div>
+				<div className="col md-6">H2</div>
+			</div>
 			<Footer></Footer>
 		</div>
 	);
