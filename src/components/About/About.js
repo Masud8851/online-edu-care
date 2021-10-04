@@ -32,20 +32,59 @@ const About = () => {
 					</p>
 					<h4 className="p-4 mentor">Why Edulyn</h4>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
-						excepturi debitis, ipsam rem error eaque possimus. Quisquam
-						sapiente, consectetur, necessitatibus illo atque fugiat temporibus
-						explicabo officia distinctio voluptatem, rem dicta dolor maxime
-						vero! Est perspiciatis maxime deserunt dolores ipsum excepturi
-						commodi dolorum eveniet sunt adipisci unde cum at ea architecto,
-						impedit aspernatur non nam error reprehenderit voluptate quam!
-						Molestiae soluta vitae at quisquam magni quibusdam, reiciendis
-						reprehenderit sed numquam. Accusamus, iusto magnam eos quas nam
-						neque impedit doloremque possimus nulla modi maxime vel facere
-						recusandae laborum adipisci natus repellendus officiis quaerat
-						obcaecati nemo sed? Provident dolor nobis praesentium autem unde
-						dicta doloremque harum.
+						Accusamus, iusto magnam eos quas nam neque impedit doloremque
+						possimus nulla modi maxime vel facere recusandae laborum adipisci
+						natus repellendus officiis quaerat obcaecati nemo sed? Provident
+						dolor nobis praesentium autem unde dicta doloremque harum.
 					</p>
+					<div className="d-flex align-items-center">
+						<div>
+							<i class="far fa-check-circle ps-2 pe-4"></i>
+						</div>
+						<div>
+							<p className="ps-3">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Necessitatibus voluptatibus ipsum cumque sed, quia fugit
+								obcaecati iure temporibus perferendis ratione?
+							</p>
+						</div>
+					</div>
+					<div className="d-flex align-items-center">
+						<div>
+							<i class="far fa-check-circle ps-2 pe-4"></i>
+						</div>
+						<div>
+							<p className="ps-3">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Necessitatibus voluptatibus ipsum cumque sed, quia fugit
+								obcaecati iure temporibus perferendis ratione?
+							</p>
+						</div>
+					</div>
+					<div className="d-flex align-items-center">
+						<div>
+							<i class="far fa-check-circle ps-2 pe-4"></i>
+						</div>
+						<div>
+							<p className="ps-3">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Necessitatibus voluptatibus ipsum cumque sed, quia fugit
+								obcaecati iure temporibus perferendis ratione?
+							</p>
+						</div>
+					</div>
+					<div className="d-flex align-items-center">
+						<div>
+							<i class="far fa-check-circle ps-2 pe-4"></i>
+						</div>
+						<div>
+							<p className="ps-3">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Necessitatibus voluptatibus ipsum cumque sed, quia fugit
+								obcaecati iure temporibus perferendis ratione?
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div></div>
