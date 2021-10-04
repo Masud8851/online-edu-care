@@ -1,17 +1,14 @@
-import React, { useEffect, useState } from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
+import banner from "../../images/Mentor/home.jpg";
 
 const Home = () => {
-	const [courses, setCourses] = useState([]);
-	useEffect(() => {
-		fetch("./course.json")
-			.then((res) => res.json())
-			.then((data) => console.log(data));
-	}, []);
 	return (
 		<div>
 			<Header></Header>
+			<div>
+				<img src={banner} alt="" className="w-100" height="400" />
+			</div>
 			<div className="row">
 				<div className="col md-6">H1</div>
 				<div className="col md-6">H2</div>

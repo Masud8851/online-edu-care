@@ -9,7 +9,7 @@ const Header = () => {
 			{/* MenuBar */}
 			<nav class="navbar navbar-expand-lg  d-flex justify-content-center">
 				<div>
-					<img src={logo} alt="" />
+					<img src={logo} alt="" className="w-100" />
 				</div>
 				<div class="container-fluid ">
 					<button
@@ -35,7 +35,7 @@ const Header = () => {
 										color: "black",
 										fontWeight: "500",
 									}}
-									activeStyle={{ color: "teal" }}
+									// activeStyle={{ color: "teal" }}
 								>
 									Home
 								</Link>
