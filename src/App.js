@@ -5,8 +5,16 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Blogs from "./components/Blogs/Blogs";
 import NotFound from "./components/NotFound/NotFound";
+import { useEffect, useState } from "react";
 
 function App() {
+	console.log("Working");
+	const [courses, setCourses] = useState([]);
+	useEffect(() => {
+		fetch("./course.json")
+			.then((res) => res.json())
+			.then((data) => setCourses(data));
+	}, []);
 	return (
 		<div className="App">
 			<Router>
@@ -15,13 +23,13 @@ function App() {
 						<Home></Home>
 					</Route>
 					<Route exact path="/home">
-						<Home></Home>
+						<Home courses={courses}></Home>
 					</Route>
 					<Route exact path="/about">
 						<About></About>
 					</Route>
 					<Route exact path="/services">
-						<Services></Services>
+						<Services courses={courses}></Services>
 					</Route>
 					<Route exact path="/blogs">
 						<Blogs></Blogs>

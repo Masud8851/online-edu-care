@@ -2,7 +2,8 @@ import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import banner from "../../images/Mentor/home.jpg";
 
-const Home = () => {
+const Home = (props) => {
+	console.log(props.courses);
 	return (
 		<div>
 			<Header></Header>
@@ -10,8 +11,9 @@ const Home = () => {
 				<img src={banner} alt="" className="w-100" height="400" />
 			</div>
 			<div className="row">
-				<div className="col md-6">H1</div>
-				<div className="col md-6">H2</div>
+				<div className="row">
+					<div className="col-md-2"></div>
+				</div>
 			</div>
 			<Footer></Footer>
 		</div>

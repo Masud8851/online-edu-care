@@ -10,7 +10,7 @@ const About = () => {
 		<div>
 			<Header></Header>
 			<div className="about">
-				<img src={logo} alt="" />
+				<img src={logo} alt="" height="400" />
 			</div>
 			<div className="row align-items-center">
 				<div className="col-md-6 p-4">

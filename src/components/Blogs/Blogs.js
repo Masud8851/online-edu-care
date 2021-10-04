@@ -11,7 +11,7 @@ const Blogs = () => {
 		<div>
 			<Header></Header>
 			<div>
-				<img src={banner} alt="" className="w-100" height="500" />
+				<img src={banner} alt="" className="w-100" height="400" />
 			</div>
 			<div className="row">
 				<div className="col-md-7 p-3">

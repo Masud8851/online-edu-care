@@ -29,13 +29,17 @@ const Header = () => {
 								<Link
 									class="nav-link active fs-4"
 									aria-current="page"
+									exact
 									to="/home"
 									style={{
 										borderRadius: "10px",
 										color: "black",
 										fontWeight: "500",
 									}}
-									// activeStyle={{ color: "teal" }}
+									// activeStyle={{
+									// 	borderBottom: "solid 3px #fff",
+									// 	paddingBottom: "1em",
+									// }}
 								>
 									Home
 								</Link>
