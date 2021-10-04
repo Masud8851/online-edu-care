@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
 	return (
 		<div className="header">
+			{/* MenuBar */}
 			<nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center">
 				<div>
 					<img src={logo} alt="" />
@@ -52,6 +53,8 @@ const Header = () => {
 					</div>
 				</div>
 			</nav>
+
+
 		</div>
 	);
 };
