@@ -19,18 +19,14 @@ const Main = () => {
 			<div>
 				<img src={banner} alt="" className="w-100" height="400" />
 			</div>
-			<div className="row mt-0">
-				<div className="col-md-12">
-					<div className="pt-0 ps-2">
-						{courses.map((course) => (
-							<Services
-								key={course.key}
-								course={course}
-								// handleInvitation = {handleInvitation}
-							></Services>
-						))}
-					</div>
-				</div>
+			<div className="pt-0 ps-2">
+				{courses.map((course) => (
+					<Services
+						key={course.key}
+						course={course}
+						// handleInvitation = {handleInvitation}
+					></Services>
+				))}
 			</div>
 
 			<Footer></Footer>
