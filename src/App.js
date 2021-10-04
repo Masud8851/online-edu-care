@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Blogs from "./components/Blogs/Blogs";
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
 	return (
@@ -28,6 +29,9 @@ function App() {
 					</Route>
 					<Route exact path="/blogs">
 						<Blogs></Blogs>
+					</Route>
+					<Route path="*">
+						<NotFound></NotFound>
 					</Route>
 				</Switch>
 			</Router>

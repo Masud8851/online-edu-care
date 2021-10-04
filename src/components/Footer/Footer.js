@@ -27,8 +27,8 @@ const Footer = () => {
 						<p>+880 1231434</p>
 					</div>
 				</div>
-				<div className="d-flex flex-column pt-5">
-					<h3>For any query please send us email</h3>
+				<div className="d-flex flex-column pt-1">
+					<p className="text-center fs-2">For any query please send us email</p>
 					<div className="d-flex justify-content-center">
 						<input
 							type="text"

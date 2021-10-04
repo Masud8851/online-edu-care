@@ -35,6 +35,7 @@ const Header = () => {
 										color: "black",
 										fontWeight: "500",
 									}}
+									activeStyle={{ color: "teal" }}
 								>
 									Home
 								</Link>
