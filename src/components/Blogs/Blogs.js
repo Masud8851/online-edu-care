@@ -69,32 +69,6 @@ const Blogs = () => {
 				<div className="col-md-7 p-3">
 					<div>
 						<div>
-							<img src={blog2} alt="" className="w-100" />
-						</div>
-						<div>
-							<p className="text-success">
-								Ratione omnis consequuntur placeae consol fugit eaque vitae hic.
-								Sequi obcaecati possimus repudiandae sit omnis accusantium
-							</p>
-						</div>
-						<div className="d-flex justify-content-between">
-							<p className="fs-5">
-								<i class="fas fa-chalkboard-teacher fs-6"></i> Marina Sances
-							</p>
-							<p className="fs-5">
-								<i class="far fa-calendar-alt fs-6"></i> April 23,2021
-							</p>
-							<p className="fs-5">
-								<i class="fas fa-book-open fs-6"></i> 200
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div className="row">
-				<div className="col-md-7 p-3">
-					<div>
-						<div>
 							<img src={blog3} alt="" className="w-100" />
 						</div>
 						<div>
