@@ -4,7 +4,7 @@ import banner from "../../images/Mentor/home.jpg";
 
 const Home = (props) => {
 	// console.log(props.courses);
-	const Courses = props.courses.slice(0, 4);
+	const Courses = props?.courses?.slice(0, 4);
 	return (
 		<div>
 			<Header></Header>
@@ -40,10 +40,3 @@ const Home = (props) => {
 };
 
 export default Home;
-
-/* {courses.map((course) => (
-					<Services>
-						key={course.id}
-						course={course}
-					</Services>
-				))} */
