@@ -13,6 +13,9 @@ const Blogs = () => {
 			<div>
 				<img src={banner} alt="" className="w-100" height="400" />
 			</div>
+			<div>
+				<h1></h1>
+			</div>
 			<div className="row">
 				<div className="col-md-7 p-3">
 					<div>
