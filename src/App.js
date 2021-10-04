@@ -31,7 +31,6 @@ function App() {
 					</Route>
 					<Route exact path="/services">
 						<Main courses={courses}></Main>
-						{/* <Services courses={courses}></Services> */}
 					</Route>
 					<Route exact path="/blogs">
 						<Blogs></Blogs>
