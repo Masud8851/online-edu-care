@@ -3,9 +3,9 @@ import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 
 const Services = (props) => {
-	console.log(props.courses);
+	console.log(props.courses[0]);
 	// distructuring
-	const { image, name, duration, mentor, reviewRate, price } = props.courses;
+	const { image, name, duration, mentor, reviewRate, price } = props.courses[0];
 	return (
 		<div>
 			<Header></Header>
@@ -17,19 +17,18 @@ const Services = (props) => {
 					</div>
 					<div className="card-body">
 						<h6>{name}</h6>
-						<p>
+						<h6>
 							<i class="far fa-clock"></i> {duration}
-						</p>
-						<p>
-							<i class="fas fa-chalkboard-teacher"></i> : {mentor}
-						</p>
+						</h6>
+						<h6>
+							<i class="fas fa-chalkboard-teacher"></i> {mentor}
+						</h6>
 						<h6>Review Rate : {reviewRate}</h6>
 						<h6>Price : {price}</h6>
-						<button className="btn vtn-primary">Enroll Now</button>
 					</div>
 					<div className=" border-0 mb-2">
-						<button onClick={() => props.handleInvitation(props.primeMinister)}>
-							<i class="fas fa-paper-plane"></i> Send invitation
+						<button className="btn btn-primary">
+							<i class="fas fa-sign-in-alt"></i> Enroll Now
 						</button>
 					</div>
 				</div>

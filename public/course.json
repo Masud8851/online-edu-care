@@ -2,7 +2,7 @@
     {
         "id":1,
         "key":"A1",
-        "image":"../src/images/course-images/c.png",
+        "image":"./course-images/c.png",
         "name":"Programming Language C Course",
         "duration":"4 Hours",
         "mentor":"Tamim Sahriyar Subeen",
@@ -12,7 +12,7 @@
     {
         "id":2,
         "key":"A2",
-        "image":"../src/images/course-images/c++.png",
+        "image":"./course-images/c++.png",
         "name":"Programming Language C++ Course",
         "duration":"4 Hours",
         "mentor":"Tamim Sahriyar Subeen",
@@ -22,7 +22,7 @@
     {
         "id":3,
         "key":"B2",
-        "image":"../src/images/course-images/python.png",
+        "image":"./course-images/python-carousel.png",
         "name":"Programming Language Python Course",
         "duration":"4 Hours",
         "mentor":"Jhankar Mahbub",
@@ -32,7 +32,7 @@
     {
         "id":4,
         "key":"B3",
-        "image":"../src/images/course-images/golang.png",
+        "image":"./course-images/golang.png",
         "name":"Programming Language goLang Course",
         "duration":"4 Hours",
         "mentor":"Jhankar Mahbub",
@@ -42,7 +42,7 @@
     {
         "id":5,
         "key":"B4",
-        "image":"../src/images/course-images/kotlin.png",
+        "image":"./course-images/kotlin.png",
         "name":"Programming Language Kotlin Course",
         "duration":"4 Hours",
         "mentor":"ANM Bajlur Rahman",
@@ -52,7 +52,7 @@
     {
         "id":6,
         "key":"C1",
-        "image":"../src/images/course-images/java.png",
+        "image":"./course-images/java.png",
         "name":"Programming Language Java Course",
         "duration":"4 Hours",
         "mentor":"ANM Bajlur Rahman",
@@ -62,7 +62,7 @@
     {
         "id":7,
         "key":"C2",
-        "image":"../src/images/course-images/Ruby.jpg",
+        "image":"./course-images/ruby.jpg",
         "name":"Programming Language Ruby Course",
         "duration":"4 Hours",
         "mentor":"Hardik Pandey",
@@ -72,7 +72,7 @@
     {
         "id":8,
         "key":"D1",
-        "image":"../src/images/course-images/r.jpg",
+        "image":"./course-images/r.jpg",
         "name":"Programming Language R Course",
         "duration":"4 Hours",
         "mentor":"Hardik Pandey",
@@ -82,7 +82,7 @@
     {
         "id":9,
         "key":"D2",
-        "image":"../src/images/course-images/php.jpg",
+        "image":"./course-images/php.jpg",
         "name":"Programming Language Php Course",
         "duration":"4 Hours",
         "mentor":"Jhankar Mahbub",
@@ -92,7 +92,7 @@
     {
         "id":10,
         "key":"E",
-        "image":"../src/images/course-images/js.jpg",
+        "image":"./course-images/js.jpg",
         "name":"Programming Language JacaScript Course",
         "duration":"4 Hours",
         "mentor":"Sumit Saha",
