@@ -19,6 +19,12 @@ const Blogs = () => {
 						<div>
 							<img src={blog1} alt="" className="w-100" />
 						</div>
+						<div>
+							<p className="text-success">
+								Ratione omnis consequuntur placeae consol fugit eaque vitae hic.
+								Sequi obcaecati possimus repudiandae sit omnis accusantium
+							</p>
+						</div>
 						<div className="d-flex justify-content-between">
 							<p className="fs-5">
 								<i class="fas fa-chalkboard-teacher fs-6"></i> Marina Sances
