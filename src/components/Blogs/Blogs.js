@@ -3,8 +3,8 @@ import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import banner from "../../images/blogs/blog.jpg";
 import blog1 from "../../images/blogs/blog-1.jpg";
-import blog2 from "../../images/blogs/blog-2.jpg";
 import blog3 from "../../images/blogs/blog-3.jpg";
+import "../Blogs/Blog.css";
 
 const Blogs = () => {
 	return (
@@ -13,8 +13,8 @@ const Blogs = () => {
 			<div>
 				<img src={banner} alt="" className="w-100" height="400" />
 			</div>
-			<div>
-				<h1></h1>
+			<div className="text-center m-2">
+				<h1 className="text-success">Blogs</h1>
 			</div>
 			<div className="row">
 				<div className="col-md-7 p-3">
@@ -67,32 +67,69 @@ const Blogs = () => {
 						<button className="btn btn-primary m-1">JavaScript</button>
 					</div>
 				</div>
-			</div>
-			<div className="row">
-				<div className="col-md-7 p-3">
-					<div>
+				<div className="row mb-5">
+					<div className="col-md-7 p-3">
 						<div>
-							<img src={blog3} alt="" className="w-100" />
-						</div>
-						<div>
-							<p className="text-success">
-								Ratione omnis consequuntur placeae consol fugit eaque vitae hic.
-								Sequi obcaecati possimus repudiandae sit omnis accusantium
-							</p>
-						</div>
-						<div className="d-flex justify-content-between">
-							<p className="fs-5">
-								<i class="fas fa-chalkboard-teacher fs-6"></i> Marina Sances
-							</p>
-							<p className="fs-5">
-								<i class="far fa-calendar-alt fs-6"></i> April 23,2021
-							</p>
-							<p className="fs-5">
-								<i class="fas fa-book-open fs-6"></i> 200
-							</p>
+							<div>
+								<img src={blog3} alt="" className="w-100" />
+							</div>
+							<div>
+								<p className="text-success">
+									Ratione omnis consequuntur placeae consol fugit eaque vitae
+									hic. Sequi obcaecati possimus repudiandae sit omnis
+									accusantium
+								</p>
+							</div>
+							<div className="d-flex justify-content-between">
+								<p className="fs-5">
+									<i class="fas fa-chalkboard-teacher fs-6"></i> Marina Sances
+								</p>
+								<p className="fs-5">
+									<i class="far fa-calendar-alt fs-6"></i> April 23,2021
+								</p>
+								<p className="fs-5">
+									<i class="fas fa-book-open fs-6"></i> 200
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
+				<button className="btn btn-warning" id="blog-btn">
+					See More
+				</button>
+			</div>
+
+			{/* Pagination */}
+			<div className="pt-5">
+				<nav aria-label="Page navigation example pt-5">
+					<ul class="pagination justify-content-center">
+						<li class="page-item disabled">
+							<a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+								Previous
+							</a>
+						</li>
+						<li class="page-item">
+							<a class="page-link" href="#">
+								1
+							</a>
+						</li>
+						<li class="page-item">
+							<a class="page-link" href="#">
+								2
+							</a>
+						</li>
+						<li class="page-item">
+							<a class="page-link" href="#">
+								3
+							</a>
+						</li>
+						<li class="page-item">
+							<a class="page-link" href="#">
+								Next
+							</a>
+						</li>
+					</ul>
+				</nav>
 			</div>
 			<Footer></Footer>
 		</div>
