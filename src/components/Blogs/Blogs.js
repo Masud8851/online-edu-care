@@ -39,7 +39,7 @@ const Blogs = () => {
 					</div>
 				</div>
 				<div className="col-md-5 p-3">
-					<div>
+					<div className="mb-5">
 						<p className="fs-4 border-bottom border-2 border-success mb-3">
 							Search Course
 						</p>
