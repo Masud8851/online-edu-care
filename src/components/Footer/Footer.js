@@ -5,7 +5,7 @@ import logo from "../../images/logo.png";
 const Footer = () => {
 	return (
 		<div>
-			<footer className="row" id="footer">
+			<footer className="row mt-5" id="footer">
 				<div>
 					<img src={logo} alt="" />
 					<p>
