@@ -30,7 +30,7 @@ const Blogs = () => {
 								<i class="fas fa-chalkboard-teacher fs-6"></i> Marina Sances
 							</p>
 							<p className="fs-5">
-								<i class="far fa-clock fs-6"></i> 4.4 Hours
+								<i class="far fa-calendar-alt fs-6"></i> April 23,2021
 							</p>
 							<p className="fs-5">
 								<i class="fas fa-book-open fs-6"></i> 200
@@ -82,7 +82,7 @@ const Blogs = () => {
 								<i class="fas fa-chalkboard-teacher fs-6"></i> Marina Sances
 							</p>
 							<p className="fs-5">
-								<i class="far fa-clock fs-6"></i> 4.4 Hours
+								<i class="far fa-calendar-alt fs-6"></i> April 23,2021
 							</p>
 							<p className="fs-5">
 								<i class="fas fa-book-open fs-6"></i> 200
@@ -108,7 +108,7 @@ const Blogs = () => {
 								<i class="fas fa-chalkboard-teacher fs-6"></i> Marina Sances
 							</p>
 							<p className="fs-5">
-								<i class="far fa-clock fs-6"></i> 4.4 Hours
+								<i class="far fa-calendar-alt fs-6"></i> April 23,2021
 							</p>
 							<p className="fs-5">
 								<i class="fas fa-book-open fs-6"></i> 200
