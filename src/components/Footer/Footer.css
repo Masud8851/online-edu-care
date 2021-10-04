@@ -6,6 +6,8 @@
 #footer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    background-color: rgba(128, 255, 0, 0.685);
+    padding: 25px;
 }
 p{
     margin-top: 15px;

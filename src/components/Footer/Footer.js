@@ -27,13 +27,32 @@ const Footer = () => {
 						<p>+880 1231434</p>
 					</div>
 				</div>
-				<div>
+				<div className="d-flex flex-column pt-5">
 					<h3>For any query please send us email</h3>
-					<input
-						type="text"
-						placeholder="Query , you want to know"
-						className="p-1"
-					/>
+					<div className="d-flex justify-content-center">
+						<input
+							type="text"
+							placeholder="Query, you want to know"
+							className="p-1"
+						/>
+						<button className="btn btn-success">
+							<i class="fas fa-paper-plane"></i> Send
+						</button>
+					</div>
+					<div className="d-flex justify-content-center">
+						<div className="p-2">
+							<i class="fab fa-facebook fs-1"></i>
+						</div>
+						<div className="p-2">
+							<i class="fab fa-instagram fs-1"></i>
+						</div>
+						<div className="p-2">
+							<i class="fab fa-twitter fs-1"></i>
+						</div>
+						<div className="p-2">
+							<i class="fab fa-linkedin fs-1"></i>
+						</div>
+					</div>
 				</div>
 			</footer>
 		</div>
