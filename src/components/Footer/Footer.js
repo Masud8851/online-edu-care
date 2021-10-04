@@ -29,7 +29,7 @@ const Footer = () => {
 				</div>
 				<div className="d-flex flex-column pt-1">
 					<p className="text-center fs-2">For any query please send us email</p>
-					<div className="d-flex justify-content-center">
+					<div className="d-flex justify-content-center mt-4">
 						<input
 							type="text"
 							placeholder="Query, you want to know"
@@ -39,7 +39,7 @@ const Footer = () => {
 							<i class="fas fa-paper-plane"></i> Send
 						</button>
 					</div>
-					<div className="d-flex justify-content-center">
+					<div className="d-flex justify-content-center mt-4">
 						<div className="p-2">
 							<i class="fab fa-facebook fs-1"></i>
 						</div>
