@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
+import banner from "../../images/services-banner.jpg";
 
 const Services = (props) => {
 	console.log(props.courses[0]);
@@ -9,6 +10,9 @@ const Services = (props) => {
 	return (
 		<div>
 			<Header></Header>
+			<div>
+				<img src={banner} alt="" className="w-100" height="400" />
+			</div>
 
 			<div className="col-md-4 p-2 text-center">
 				<div className="card h-100 ms-auto card-border">
