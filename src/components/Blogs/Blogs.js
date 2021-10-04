@@ -17,6 +17,17 @@ const Blogs = () => {
 						<div>
 							<img src={blog1} alt="" className="w-100" />
 						</div>
+						<div className="d-flex justify-content-between">
+							<p className="fs-5">
+								<i class="fas fa-chalkboard-teacher fs-6"></i> Marina Sances
+							</p>
+							<p className="fs-5">
+								<i class="far fa-clock fs-6"></i> 4.4 Hours
+							</p>
+							<p className="fs-5">
+								<i class="fas fa-book-open fs-6"></i> 200
+							</p>
+						</div>
 					</div>
 				</div>
 				<div className="col-md-5 p-3"></div>
