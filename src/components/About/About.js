@@ -12,7 +12,7 @@ const About = () => {
 			<div className="about">
 				<img src={logo} alt="" />
 			</div>
-			<div className="row">
+			<div className="row align-items-center">
 				<div className="col-md-6 p-4">
 					<img src={mentor} alt="" className="w-100" />
 				</div>
@@ -21,7 +21,7 @@ const About = () => {
 						We Have Experienced Professionals & We Do Our Best To Achieve Your
 						Goal. Your Happiness Is Our First Priority.
 					</h4>
-					<p className="p-4 mentor">
+					<p className="p-4 pt-0 mentor">
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
 						error ut provident vel repellendus nihil atque possimus aliquam,
 						mollitia tempora neque voluptate debitis illum veniam.Numquam
