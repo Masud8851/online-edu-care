@@ -1,23 +1,20 @@
 import React from "react";
-import Footer from "../Footer/Footer";
-import Header from "../Header/Header";
-import banner from "../../images/services-banner.jpg";
 
 const Services = (props) => {
-	console.log(props.courses[0]);
+	console.log(props.course);
 	// distructuring
-	const { image, name, duration, mentor, reviewRate, price } = props.courses[0];
+	const { image, name, duration, mentor, reviewRate, price } = props.course;
 	return (
-		<div>
-			<Header></Header>
-			<div>
-				<img src={banner} alt="" className="w-100" height="400" />
-			</div>
-
-			<div className="col-md-4 p-2 text-center">
+		<div className="row">
+			<div className="col-md-3 p-2 text-center">
 				<div className="card h-100 ms-auto card-border">
 					<div className="text-center">
-						<img src={image} height="200" className="rounded p-2" alt="" />
+						<img
+							src={image}
+							height="200"
+							className="rounded p-2 w-100"
+							alt=""
+						/>
 					</div>
 					<div className="card-body">
 						<h6>{name}</h6>
@@ -37,7 +34,6 @@ const Services = (props) => {
 					</div>
 				</div>
 			</div>
-			<Footer></Footer>
 		</div>
 	);
 };

@@ -6,6 +6,7 @@ import Services from "./components/Services/Services";
 import Blogs from "./components/Blogs/Blogs";
 import NotFound from "./components/NotFound/NotFound";
 import { useEffect, useState } from "react";
+import Main from "./components/Main/Main";
 
 function App() {
 	console.log("Working");
@@ -29,7 +30,8 @@ function App() {
 						<About></About>
 					</Route>
 					<Route exact path="/services">
-						<Services courses={courses}></Services>
+						<Main courses={courses}></Main>
+						{/* <Services courses={courses}></Services> */}
 					</Route>
 					<Route exact path="/blogs">
 						<Blogs></Blogs>
