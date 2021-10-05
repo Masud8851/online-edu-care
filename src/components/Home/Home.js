@@ -14,7 +14,7 @@ const Home = (props) => {
 			</div>
 			<Animated animationIn="tada" animationOut="tada" isVisible={true}>
 				<div className="text-center m-4">
-					<h1 className="text-success">Most Wanted Course</h1>
+					<h1 className="text-primary"> [ Most Wanted Course ]</h1>
 				</div>
 			</Animated>
 			<div className="row p-4 d-flex justify-content-around">
