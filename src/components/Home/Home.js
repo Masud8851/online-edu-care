@@ -45,33 +45,41 @@ const Home = (props) => {
 			</Carousel>
 
 			{/* Checkout */}
-			<div className="container row">
-				<h2 className="text-center text-success ms-5 ps-5 mx-auto m-5 mb-3">
+			<div className="container row mb-5 pb-5">
+				<h2 className="text-center text-primary ms-5 ps-5 mx-auto m-5 mb-4">
 					Checkout Our Features To Know <br /> Why We Are Best In This Business
 				</h2>
 				<div className="checkOut">
-					<div className=" d-flex flex-row justify-content-center bg-info text-dark rounded-3">
+					<div className=" d-flex flex-row justify-content-center  text-dark rounded-3 reason">
 						<div>
-							<i class="fas fa-thumbs-up fs-1"></i>
-						</div>
-						<div>
-							<h2 className="pt-2 m-1">POPULAR COURSES</h2>
+							<h5 className="pt-2">POPULAR COURSES</h5>
 						</div>
 					</div>
-					<div className=" d-flex flex-row justify-content-center bg-info text-dark rounded-3">
+					<div className=" d-flex flex-row justify-content-center text-dark rounded-3 reason">
 						<div>
-							<i class="fas fa-thumbs-up fs-1"></i>
-						</div>
-						<div>
-							<h2 className="pt-2 m-1">POPULAR COURSES</h2>
+							<h5 className="pt-2">MODERN LIBRARY</h5>
 						</div>
 					</div>
-					<div className=" d-flex flex-row justify-content-center bg-info text-dark rounded-3">
+					<div className=" d-flex flex-row justify-content-center text-dark rounded-3 reason">
 						<div>
-							<i class="fas fa-thumbs-up fs-1"></i>
+							<h5 className="pt-2">QUALIFIED TEACHER</h5>
 						</div>
+					</div>
+				</div>
+				<div className="checkOut mt-3">
+					<div className=" d-flex flex-row justify-content-center text-dark rounded-3 reason">
 						<div>
-							<h2 className="pt-2 m-1">POPULAR COURSES</h2>
+							<h5 className="pt-2">UNLIMITED COURSES</h5>
+						</div>
+					</div>
+					<div className=" d-flex flex-row justify-content-center text-dark rounded-3 reason">
+						<div>
+							<h5 className="pt-2">MANY LOCATIONS</h5>
+						</div>
+					</div>
+					<div className=" d-flex flex-row justify-content-center text-dark rounded-3 reason">
+						<div>
+							<h5 className="pt-2">ONLINE SUPPORT</h5>
 						</div>
 					</div>
 				</div>
