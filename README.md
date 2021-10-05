@@ -6,4 +6,4 @@ In the project directory=>
 - I Made a faka JSON file with some courses, mentors, durations, course prices, review and so on.
 - Although, I tried to make this site routeable without reloading which is the first priyority for making SPA.
 
-You can also visit our <a target="_blank" href="https://online-edu-care.netlify.app/"> live site </a> .
+You can also visit our live site by clicking <a target="_blank" href="https://online-edu-care.netlify.app/"> here </a> .
