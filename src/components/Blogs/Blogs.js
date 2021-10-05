@@ -5,6 +5,7 @@ import banner from "../../images/blogs/blog.jpg";
 import blog1 from "../../images/blogs/blog-1.jpg";
 import blog3 from "../../images/blogs/blog-3.jpg";
 import "../Blogs/Blog.css";
+import { Animated } from "react-animated-css";
 
 const Blogs = () => {
 	return (
@@ -13,9 +14,13 @@ const Blogs = () => {
 			<div>
 				<img src={banner} alt="" className="w-100" height="400" />
 			</div>
-			<div className="text-center m-2">
-				<h1 className="text-primary"> [ Blogs ]</h1>
-			</div>
+
+			<Animated animationIn="zoomIn" animationOut="tada" isVisible={true}>
+				<div className="text-center m-2">
+					<h1 className="text-primary"> [ Blogs ]</h1>
+				</div>
+			</Animated>
+
 			<div className="row">
 				<div className="col-md-7 p-3">
 					<div>
@@ -109,7 +114,7 @@ const Blogs = () => {
 							</a>
 						</li>
 						<li class="page-item">
-							<a class="page-link" href="#">
+							<a class="page-link active" href="#">
 								1
 							</a>
 						</li>
