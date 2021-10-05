@@ -16,8 +16,8 @@ const Home = (props) => {
 			</div>
 			<div className="row p-4 d-flex justify-content-around">
 				{Courses.map((course) => (
-					<div className="col">
-						<div className="card">
+					<div className="col p-2">
+						<div className="card p-2">
 							<img
 								src={course.image}
 								className="card-img-top w-100"
