@@ -17,20 +17,22 @@ const About = () => {
 					<img src={mentor} alt="" className="w-100" />
 				</div>
 				<div className="col-md-6">
-					<h4 className="p-4 mentor">
+					<h4 className="p-4 mentor text-primary">
 						We Have Experienced Professionals & We Do Our Best To Achieve Your
-						Goal. Your Happiness Is Our First Priority.
+						Goal.
 					</h4>
 					<p className="p-4 pt-0 mentor">
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-						error ut provident vel repellendus nihil atque possimus aliquam,
-						mollitia tempora neque voluptate debitis illum veniam.Numquam
-						blanditiis dignissimos laboriosam illum ut officia. <br /> <br />
+						We have some <strong> talented mentors</strong> who are very
+						energetic. We believe in success.{" "}
+						<strong className="fs-5">
+							Your Happiness Is Our First Priority.
+						</strong>{" "}
+						<br /> <br />
 						Nam aperiam autem nesciunt perferendis id. Lorem ipsum dolor sit,
 						amet consectetur adipisicing elit. Quas nulla sequi pariatur quam
 						animi ipsum molestias assumenda cumque.
 					</p>
-					<h4 className="p-4 mentor">Why Edulyn</h4>
+					<h4 className="p-4 mentor text-primary">Why Edulyn</h4>
 					<p>
 						Accusamus, iusto magnam eos quas nam neque impedit doloremque
 						possimus nulla modi maxime vel facere recusandae laborum adipisci
@@ -43,7 +45,18 @@ const About = () => {
 						</div>
 						<div>
 							<p className="ps-3">
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Dolor, sit amet consectetur adipisicing elit. Necessitatibus
+								voluptatibus ipsum cumque sed, quia fugit obcaecati iure
+								temporibus perferendis ratione?
+							</p>
+						</div>
+					</div>
+					<div className="d-flex align-items-center">
+						<div>
+							<i class="far fa-check-circle ps-2 pe-4"></i>
+						</div>
+						<div>
+							<p className="ps-3">
 								Necessitatibus voluptatibus ipsum cumque sed, quia fugit
 								obcaecati iure temporibus perferendis ratione?
 							</p>
@@ -55,9 +68,9 @@ const About = () => {
 						</div>
 						<div>
 							<p className="ps-3">
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-								Necessitatibus voluptatibus ipsum cumque sed, quia fugit
-								obcaecati iure temporibus perferendis ratione?
+								Sit amet consectetur adipisicing elit. Necessitatibus
+								voluptatibus ipsum cumque sed, quia fugit obcaecati iure
+								temporibus perferendis ratione?
 							</p>
 						</div>
 					</div>
@@ -67,19 +80,6 @@ const About = () => {
 						</div>
 						<div>
 							<p className="ps-3">
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-								Necessitatibus voluptatibus ipsum cumque sed, quia fugit
-								obcaecati iure temporibus perferendis ratione?
-							</p>
-						</div>
-					</div>
-					<div className="d-flex align-items-center">
-						<div>
-							<i class="far fa-check-circle ps-2 pe-4"></i>
-						</div>
-						<div>
-							<p className="ps-3">
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 								Necessitatibus voluptatibus ipsum cumque sed, quia fugit
 								obcaecati iure temporibus perferendis ratione?
 							</p>
