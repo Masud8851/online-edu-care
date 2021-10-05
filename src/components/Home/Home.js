@@ -47,7 +47,7 @@ const Home = (props) => {
 			<div>
 				<img src={banner} alt="" className="w-100" height="400" />
 			</div> */}
-			<Animated animationIn="slideInUp" animationOut="tada" isVisible={true}>
+			<Animated animationIn="zoomInDown" animationOut="tada" isVisible={true}>
 				<div className="text-center m-4">
 					<h1 className="text-primary"> [ Most Wanted Course ]</h1>
 				</div>
@@ -56,7 +56,7 @@ const Home = (props) => {
 				{Courses.map((course) => (
 					<div className="col p-2">
 						<Animated
-							animationIn="slideInUp"
+							animationIn="fadeInLeft"
 							animationOut="tada"
 							isVisible={true}
 						>
@@ -78,9 +78,12 @@ const Home = (props) => {
 					</div>
 				))}
 			</div>
-			<Link id="view-course" to="/services">
-				VIEW ALL COURSES
-			</Link>
+			{/* View All Courses Button */}
+			<Animated animationIn="zoomInUp" animationOut="fadeOut" isVisible={true}>
+				<Link id="view-course" to="/services">
+					VIEW ALL COURSES
+				</Link>
+			</Animated>
 			<Footer></Footer>
 		</div>
 	);
