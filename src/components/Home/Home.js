@@ -43,10 +43,39 @@ const Home = (props) => {
 					/>
 				</Carousel.Item>
 			</Carousel>
-			{/* 
-			<div>
-				<img src={banner} alt="" className="w-100" height="400" />
-			</div> */}
+
+			{/* Checkout */}
+			<div className="container row">
+				<h2 className="text-center text-success ms-5 ps-5 mx-auto m-5 mb-3">
+					Checkout Our Features To Know <br /> Why We Are Best In This Business
+				</h2>
+				<div className="checkOut">
+					<div className=" d-flex flex-row justify-content-center bg-info text-dark rounded-3">
+						<div>
+							<i class="fas fa-thumbs-up fs-1"></i>
+						</div>
+						<div>
+							<h2 className="pt-2 m-1">POPULAR COURSES</h2>
+						</div>
+					</div>
+					<div className=" d-flex flex-row justify-content-center bg-info text-dark rounded-3">
+						<div>
+							<i class="fas fa-thumbs-up fs-1"></i>
+						</div>
+						<div>
+							<h2 className="pt-2 m-1">POPULAR COURSES</h2>
+						</div>
+					</div>
+					<div className=" d-flex flex-row justify-content-center bg-info text-dark rounded-3">
+						<div>
+							<i class="fas fa-thumbs-up fs-1"></i>
+						</div>
+						<div>
+							<h2 className="pt-2 m-1">POPULAR COURSES</h2>
+						</div>
+					</div>
+				</div>
+			</div>
 			<Animated animationIn="zoomInDown" animationOut="tada" isVisible={true}>
 				<div className="text-center m-4">
 					<h1 className="text-primary"> [ Most Wanted Course ]</h1>

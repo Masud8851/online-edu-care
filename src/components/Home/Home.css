@@ -12,3 +12,10 @@
     box-shadow: 0px 4px 15px -5px #0046d5;
     margin-left: 45%;
 }
+.checkOut{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+    text-align: center;
+    margin-left: 100px;
+}
