@@ -14,7 +14,7 @@ const Blogs = () => {
 				<img src={banner} alt="" className="w-100" height="400" />
 			</div>
 			<div className="text-center m-2">
-				<h1 className="text-success">Blogs</h1>
+				<h1 className="text-primary"> [ Blogs ]</h1>
 			</div>
 			<div className="row">
 				<div className="col-md-7 p-3">
@@ -55,7 +55,7 @@ const Blogs = () => {
 					</div>
 					<div>
 						<p className="fs-4 border-bottom border-2 border-success mb-3">
-							Course Tag
+							Blogs Tag
 						</p>
 						<button className="btn btn-primary m-1">C</button> <br />
 						<button className="btn btn-primary m-1">C++</button>
