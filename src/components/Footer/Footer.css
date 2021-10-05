@@ -13,11 +13,13 @@ p{
     margin-top: 15px;
     text-align: justify;
     padding-left: 15px;
-    margin-bottom: 0!important;
 }
 
 .location{
     display: flex;
     align-items: baseline;
     padding-left: 15px;
+}
+.row{
+    --bs-gutter-x: 0!important;
 }
