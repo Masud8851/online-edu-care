@@ -29,7 +29,8 @@ function App() {
 						<About></About>
 					</Route>
 					<Route exact path="/services">
-						<Main courses={courses}></Main>
+						<Main courses={courses}></Main>{" "}
+						{/* this is the services main route */}
 					</Route>
 					<Route exact path="/blogs">
 						<Blogs></Blogs>
