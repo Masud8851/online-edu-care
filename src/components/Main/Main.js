@@ -16,10 +16,12 @@ const Main = () => {
 		<div>
 			<Header></Header>
 
+			{/* Banner Carousel */}
 			<div>
 				<img src={banner} alt="" className="w-100" height="400" />
 			</div>
 
+			{/* Available Courses */}
 			<Animated animationIn="zoomIn" animationOut="tada" isVisible={true}>
 				<div className="text-center mt-5">
 					<h1 className="text-primary fs-1">[ Available Courses ]</h1>
@@ -28,14 +30,11 @@ const Main = () => {
 
 			<div className="row row-cols-1 row-cols-md-3 g-4 pt-5">
 				{courses.map((course) => (
-					<Services
-						key={course.key}
-						course={course}
-						// handleInvitation = {handleInvitation}
-					></Services>
+					<Services key={course.key} course={course}></Services>
 				))}
 			</div>
 
+			{/* Footer */}
 			<Footer></Footer>
 		</div>
 	);
