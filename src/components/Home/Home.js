@@ -1,6 +1,9 @@
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import banner from "../../images/Mentor/home.jpg";
+import bannerOne from "../../images/carousel/b-1.jpg";
+import bannerTwo from "../../images/carousel/b-3.jpg";
+import bannerThree from "../../images/carousel/b-4.png";
+import Carousel from "react-bootstrap/Carousel";
 import { Animated } from "react-animated-css";
 
 const Home = (props) => {
@@ -8,10 +11,40 @@ const Home = (props) => {
 	const Courses = props?.courses?.slice(0, 4);
 	return (
 		<div>
+			{/* NavBar */}
 			<Header></Header>
+
+			{/* Carousel */}
+			<Carousel>
+				<Carousel.Item>
+					<img
+						className="d-block w-100"
+						src={bannerOne}
+						alt="First slide"
+						height="400"
+					/>
+				</Carousel.Item>
+				<Carousel.Item>
+					<img
+						className="d-block w-100"
+						src={bannerTwo}
+						alt="Second slide"
+						height="400"
+					/>
+				</Carousel.Item>
+				<Carousel.Item>
+					<img
+						className="d-block w-100"
+						src={bannerThree}
+						alt="Third slide"
+						height="400"
+					/>
+				</Carousel.Item>
+			</Carousel>
+			{/* 
 			<div>
 				<img src={banner} alt="" className="w-100" height="400" />
-			</div>
+			</div> */}
 			<Animated animationIn="slideInUp" animationOut="tada" isVisible={true}>
 				<div className="text-center m-4">
 					<h1 className="text-primary"> [ Most Wanted Course ]</h1>
