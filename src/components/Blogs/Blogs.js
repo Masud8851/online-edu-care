@@ -41,15 +41,15 @@ const Blogs = () => {
 						</div>
 					</div>
 				</div>
-				<div className="col-md-5 p-3">
+				<div className="col-md-5 p-3 border border-3 pb-0 mt-3 border-success">
 					<div className="mb-5">
 						<p className="fs-4 border-bottom border-2 border-success mb-3">
-							Search Course
+							Search Blogs
 						</p>
 						<input
 							type="text"
-							placeholder="search course"
-							className="w-75 fs-4"
+							placeholder="search blogs"
+							className="w-75 fs-5"
 							height="300"
 						/>
 					</div>
