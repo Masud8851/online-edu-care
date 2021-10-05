@@ -1,6 +1,7 @@
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import banner from "../../images/Mentor/home.jpg";
+import { Animated } from "react-animated-css";
 
 const Home = (props) => {
 	// console.log(props.courses);
@@ -11,9 +12,11 @@ const Home = (props) => {
 			<div>
 				<img src={banner} alt="" className="w-100" height="400" />
 			</div>
-			<div className="text-center m-4">
-				<h1 className="text-success">Most Wanted Course</h1>
-			</div>
+			<Animated animationIn="tada" animationOut="tada" isVisible={true}>
+				<div className="text-center m-4">
+					<h1 className="text-success">Most Wanted Course</h1>
+				</div>
+			</Animated>
 			<div className="row p-4 d-flex justify-content-around">
 				{Courses.map((course) => (
 					<div className="col p-2">
