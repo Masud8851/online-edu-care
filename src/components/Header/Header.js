@@ -1,7 +1,7 @@
 import React from "react";
 import "../Header/Header.css";
 import logo from "../../images/logo.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
 	return (
@@ -26,8 +26,8 @@ const Header = () => {
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 							<li class="nav-item">
-								<Link
-									class="nav-link active fs-4"
+								<NavLink
+									class="nav-NavLink active fs-4"
 									aria-current="page"
 									exact
 									to="/home"
@@ -35,56 +35,72 @@ const Header = () => {
 										borderRadius: "10px",
 										color: "black",
 										fontWeight: "500",
+										padding: "10px",
+										textDecoration: "none",
 									}}
-									// activeStyle={{
-									// 	borderBottom: "solid 3px #fff",
-									// 	paddingBottom: "1em",
-									// }}
+									activeStyle={{
+										color: "blue",
+									}}
 								>
 									Home
-								</Link>
+								</NavLink>
 							</li>
 							<li class="nav-item">
-								<Link
-									class="nav-link fs-4"
+								<NavLink
+									class="nav-NavLink fs-4"
 									aria-current="page"
 									to="/about"
 									style={{
 										borderRadius: "10px",
 										color: "black",
 										fontWeight: "500",
+										padding: "10px",
+										textDecoration: "none",
+									}}
+									activeStyle={{
+										color: "blue",
 									}}
 								>
 									About
-								</Link>
+								</NavLink>
 							</li>
 							<li class="nav-item">
-								<Link
-									class="nav-link fs-4"
+								<NavLink
+									class="nav-NavLink fs-4"
 									aria-current="page"
 									to="/services"
 									style={{
 										borderRadius: "10px",
 										color: "black",
 										fontWeight: "500",
+										padding: "10px",
+										textDecoration: "none",
+									}}
+									activeStyle={{
+										color: "blue",
 									}}
 								>
 									Services
-								</Link>
+								</NavLink>
 							</li>
 							<li class="nav-item">
-								<Link
-									class="nav-link fs-4"
+								<NavLink
+									class="nav-NavLink fs-4"
 									aria-current="page"
 									to="/blogs"
 									style={{
 										borderRadius: "10px",
 										color: "black",
 										fontWeight: "500",
+										padding: "10px",
+										textDecoration: "none",
+									}}
+									activeStyle={{
+										color: "blue",
 									}}
 								>
 									Blogs
-								</Link>
+								</NavLink>
 							</li>
 						</ul>
 					</div>
