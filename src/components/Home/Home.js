@@ -5,6 +5,8 @@ import bannerTwo from "../../images/carousel/b-3.jpg";
 import bannerThree from "../../images/carousel/b-4.png";
 import Carousel from "react-bootstrap/Carousel";
 import { Animated } from "react-animated-css";
+import { Link } from "react-router-dom";
+import "../Home/Home.css";
 
 const Home = (props) => {
 	// console.log(props.courses);
@@ -76,6 +78,9 @@ const Home = (props) => {
 					</div>
 				))}
 			</div>
+			<Link id="view-course" to="/services">
+				VIEW ALL COURSES
+			</Link>
 			<Footer></Footer>
 		</div>
 	);
