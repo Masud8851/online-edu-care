@@ -22,7 +22,7 @@ const Main = () => {
 
 			<Animated animationIn="zoomIn" animationOut="tada" isVisible={true}>
 				<div className="text-center mt-5">
-					<h1 className="text-success fs-1">[ Available Courses ]</h1>
+					<h1 className="text-primary fs-1">[ Available Courses ]</h1>
 				</div>
 			</Animated>
 
