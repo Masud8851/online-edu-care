@@ -20,7 +20,7 @@ const Main = () => {
 				<img src={banner} alt="" className="w-100" height="400" />
 			</div>
 
-			<Animated animationIn="rollIn" animationOut="tada" isVisible={true}>
+			<Animated animationIn="zoomIn" animationOut="tada" isVisible={true}>
 				<div className="text-center mt-5">
 					<h1 className="text-success fs-1">[ Available Courses ]</h1>
 				</div>
