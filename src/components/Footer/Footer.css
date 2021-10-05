@@ -23,3 +23,13 @@ p{
 .row{
     --bs-gutter-x: 0!important;
 }
+
+#scrollToTopBtn {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 48px;
+    width: 48px;
+}
