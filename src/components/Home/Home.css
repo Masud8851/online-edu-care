@@ -14,8 +14,7 @@
 }
 .check{
     text-align: center;
-    padding: 15px 15px;
-    margin-left: 10%;
+    margin-left: 7rem;
 }
 
 .checkOut{
@@ -26,4 +25,6 @@
 .reason{
     background-color: chartreuse;
 }
+
+
 

@@ -46,10 +46,10 @@ const Home = (props) => {
 
 			{/* Checkout */}
 			<div className="container row mb-5 pb-5 check">
-				<h2 className="text-primary ">
+				<h2 className="text-primary" id="check">
 					Checkout Our Features To Know <br /> Why We Are Best In This Business
 				</h2>
-				<div className="checkOut text-center">
+				<div className="checkOut">
 					<div className="text-dark rounded-3 reason">
 						<div>
 							<h5 className="pt-2">POPULAR COURSES</h5>
