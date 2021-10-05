@@ -45,39 +45,39 @@ const Home = (props) => {
 			</Carousel>
 
 			{/* Checkout */}
-			<div className="container row mb-5 pb-5">
-				<h2 className="text-center text-primary ms-5 ps-5 mx-auto m-5 mb-4">
+			<div className="container row mb-5 pb-5 check">
+				<h2 className="text-primary ">
 					Checkout Our Features To Know <br /> Why We Are Best In This Business
 				</h2>
-				<div className="checkOut">
-					<div className=" d-flex flex-row justify-content-center  text-dark rounded-3 reason">
+				<div className="checkOut text-center">
+					<div className="text-dark rounded-3 reason">
 						<div>
 							<h5 className="pt-2">POPULAR COURSES</h5>
 						</div>
 					</div>
-					<div className=" d-flex flex-row justify-content-center text-dark rounded-3 reason">
+					<div className="text-dark rounded-3 reason">
 						<div>
 							<h5 className="pt-2">MODERN LIBRARY</h5>
 						</div>
 					</div>
-					<div className=" d-flex flex-row justify-content-center text-dark rounded-3 reason">
+					<div className="text-dark rounded-3 reason">
 						<div>
 							<h5 className="pt-2">QUALIFIED TEACHER</h5>
 						</div>
 					</div>
 				</div>
 				<div className="checkOut mt-3">
-					<div className=" d-flex flex-row justify-content-center text-dark rounded-3 reason">
+					<div className="text-dark rounded-3 reason">
 						<div>
 							<h5 className="pt-2">UNLIMITED COURSES</h5>
 						</div>
 					</div>
-					<div className=" d-flex flex-row justify-content-center text-dark rounded-3 reason">
+					<div className="text-dark rounded-3 reason">
 						<div>
 							<h5 className="pt-2">MANY LOCATIONS</h5>
 						</div>
 					</div>
-					<div className=" d-flex flex-row justify-content-center text-dark rounded-3 reason">
+					<div className="text-dark rounded-3 reason">
 						<div>
 							<h5 className="pt-2">ONLINE SUPPORT</h5>
 						</div>
